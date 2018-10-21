@@ -1,0 +1,35 @@
+* Email Automation
+
+* pip install gmail:
+- Bult-in library
+- 3rd libs => pypi.org
+
+* user guide
+>>> gmail = GMail('A.User <user@gmail.com>','password')
+>>> msg = Message('Test Message',to='xyz <xyz@xyz.com>',text='Hello')
+>>> gmail.send(msg)
+
+Besides this ppl can also send a link, attachment,...
+
+html5-editor.net
+
+* Template:
+plateholder: special text to add the variable
+{{text}}
+
+.replace: used to replace the plateholder w/ the content that you want or to delete
+
+* Disk = files:
+When ppl want to save daten that contain different items but related to each other => Database
+
+Database: 
+1. SQL: Structure Query Language 
+=> python talks to Database through SQL
+=> have to learn another language SQL to do this
+2. No-SQL:
+ppl dont have to use SQL to complete this task
+=> have to use Driver as the agent between Database and Python
+(Mongo DB, Realm,...) ~ mlab.com
+
+- insert_one() => (C)
+- find => (R)

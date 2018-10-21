@@ -1,0 +1,35 @@
+* Function: used in big math problems which is hard to solve w/ other ways
+
+1. simple_add.py:
+String formating: 
+.format() 
+
+2. f_math.py: (only sum)
+- produce the math problem: x, y, z
+"from random import randint": import an integer
+
+- calculate the solution
+Use 'if...'
+
+3. f_math2.py:
+* Reusability
+
+* Single entity
+=> Function
+
+When see (): a function
+
+4. calc.py:
+- define function: def => built-in functions
+
+- use function (call function): add() => user-defined function
+=> built-in functions
+
+- Scope: 
+Where the variable is produced is also where it dies
+def - function scope
+
+Return: = return the result
+	= break in "While"
+
+
